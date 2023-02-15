@@ -1,1 +1,81 @@
-*
+*{
+      margin: 0px;
+      padding: 0px;
+     
+      font-family: 'Poppins', sans-serif;
+}
+/* header style */
+ .container{
+    background-color: antiquewhite;
+ }
+nav h3{
+      font-size: 40px;
+      margin-left: 100px;
+   }
+nav p{
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+ }
+   nav {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 241px;
+      padding: 50px 80px;
+
+   }
+   nav a{
+      text-decoration: none;
+      color: black;
+      font-style:normal;
+      font-size: 18px;
+      margin-right: 20px;
+   }
+.nav-details{
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.botton-details{
+    justify-content: center;
+}
+.botton-info{
+     padding: 20px 10px;
+     color: white;
+     background: orange;
+     align-items: center;
+      border-radius: 5px;
+  }
+.nav-img{
+      justify-content: center;
+}
+
+
+/* Features  */
+.Features{
+   display: flex;
+   
+justify-content: space-between;
+   margin: 40px 150px;
+  margin-left: 10px;
+  
+}
+.img-info{
+   display: flex;
+    gap: 24px 24px;
+   margin-left: 100px;
+}
+.contant-info{
+   margin-top: 200px;
+   
+ }
+.contant-info h3{
+  font-size: 45px;
+}
+.contant-info p{
+  font-size: 16px;
+  color: rgba(145, 159, 159, 0.808);
+}
