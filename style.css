@@ -79,3 +79,78 @@ justify-content: space-between;
   font-size: 16px;
   color: rgba(145, 159, 159, 0.808);
 }
+
+
+
+/* blogs section styles */
+.blogs{
+   display: flex;
+     justify-content: space-between;
+     gap: 25px;
+     margin-right: 300px;
+     margin-left: 300px;
+}
+
+.blog-header h1{
+   font-size: 40px;
+   color: black;
+
+}
+.blog-header p{
+    width: 300px;
+    height: 150px;
+    font-size: 14px;
+    
+}
+
+
+.blog-articals{
+  margin-top: 15px;
+   margin-left: 25px;
+   }
+.blog-articals, blog-1{
+   margin-top: 20px;
+}
+.blog-articals p{
+   font-size: 14px;
+   
+}
+
+.blog-img{
+    align-items: flex-end
+}
+ /* some facts style  */
+.facts-header{
+      margin: 100px 250px;
+}
+.facts-header h3{
+     font-size: 40px;
+}
+.facts-icons{
+   justify-content: center;
+ }
+
+.icons-info{
+   display: flex;
+   justify-content: space-between;
+   margin: 60px 280px 300px;
+}
+/* our-sponspors */
+.our-sponspors p{
+   margin-top: 10px;
+}
+
+.Sponspors{
+   display: flex;
+  justify-content: space-between;
+  margin: 50px 300px;
+ color: black;
+}
+
+
+/* footer start  */
+.footer-bottom{
+  background-color: peachpuff;
+  margin: 50px 300px;
+  padding: 20px 30px;
+}
