@@ -149,6 +149,40 @@ justify-content: space-between;
 
 
 /* footer start  */
+  
+/* footer section  */
+.contact{
+   display: flex;
+   gap: 200px;
+background-color: peachpuff;
+padding: 130px 300px;
+color: black;
+margin: 0px 300px;
+border-radius: 2px;
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+}
+
+
+.email-info{
+     width: 150px;
+     height: 30px;
+   border-color: white;
+   background-color:peachpuff
+   color: white;
+   margin-bottom: 24px;
+}
+.btn-fo{
+background-color: blue;
+color: White;
+width: 95px;
+height: 40px;
+
+}
+ /* footer-bottom  */
 .footer-bottom{
   background-color: peachpuff;
   margin: 50px 300px;
