@@ -40,15 +40,23 @@ text-align: center;
     background-color: antiquewhite;
 }
 .botton-details{
+    display: flex;
     justify-content: center;
+    
 }
-.botton-info{
-     padding: 20px 10px;
+ .botton-info {
+   
+     font-size: 20px;
      color: white;
      background: orange;
-     align-items: center;
-      border-radius: 5px;
-  }
+     
+    border-radius: 6px;
+    border: none;
+    
+     width: 180px;
+     height: 64px;
+     margin: 40px 0px;
+  }  
 .nav-img{
       justify-content: center;
 }
@@ -56,11 +64,12 @@ text-align: center;
 
 /* Features  */
 .Features{
-   display: flex;
-   
-justify-content: space-between;
-   margin: 40px 150px;
-  margin-left: 10px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+   justify-content: space-between;
+   margin: 80px 150px;
+ 
   
 }
 .img-info{
@@ -80,11 +89,26 @@ justify-content: space-between;
   color: rgba(145, 159, 159, 0.808);
 }
 
+.botton-feat{
+    font-size: 20px;
+     color: white;
+     background: orange;
+     
+    border-radius: 6px;
+    border: none;
+    
+     width: 180px;
+     height: 64px;
+     margin: 40px 0px;
+}
+
+
+
 
 
 /* blogs section styles */
 .blogs{
-   display: flex;
+     display: flex;
      justify-content: space-between;
      gap: 25px;
      margin-right: 300px;
@@ -94,6 +118,8 @@ justify-content: space-between;
 .blog-header h1{
    font-size: 40px;
    color: black;
+   border-left: 5px solid orange;
+   padding-left: 20px;
 
 }
 .blog-header p{
@@ -115,10 +141,35 @@ justify-content: space-between;
    font-size: 14px;
    
 }
+.blog-box{
+   margin-bottom: 65px;
+   box-shadow: 8px 10px 14px 0px rgba(107, 96, 96, 0.221);
+   padding: 10px;
+}
 
 .blog-img{
-    align-items: flex-end
+    align-items: flex-end;
+    position: relative;
 }
+.blog-bottom{
+    position: absolute;
+    bottom: -30px;
+   left: -91px;
+   
+   font-size: 30px;
+     color: white;
+     background: orange;
+     
+    border-radius: 6px;
+    border: none;
+    padding: 10px 15px;
+    
+   
+ }
+ .blog-bottom span{
+     font-size: 20px;
+     
+ }
  /* some facts style  */
 .facts-header{
       margin: 100px 250px;
@@ -127,8 +178,18 @@ justify-content: space-between;
      font-size: 40px;
 }
 .facts-icons{
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  border: 1px solid orange;
+  padding: 10px;
+  transition: 0.5s;
+  
  }
+.facts-icons:hover{
+    background-color: orange;
+  
+}
 
 .icons-info{
    display: flex;
@@ -145,6 +206,11 @@ justify-content: space-between;
   justify-content: space-between;
   margin: 50px 300px;
  color: black;
+ 
+}
+.Sponspors img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 
@@ -171,20 +237,31 @@ border-radius: 2px;
      width: 150px;
      height: 30px;
    border-color: white;
-   background-color:peachpuff
+   background-color:peachpuff;
    color: white;
-   margin-bottom: 24px;
+    padding: 0px 5px;
+   
 }
 .btn-fo{
-background-color: blue;
+background-color: orange;
 color: White;
 width: 95px;
 height: 40px;
+ border: none;
+ margin-top: 15px;
 
 }
  /* footer-bottom  */
 .footer-bottom{
   background-color: peachpuff;
-  margin: 50px 300px;
+  margin: 0px 300px;
   padding: 20px 30px;
+}
+
+
+/* @ media  */
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: lightblue;
+  }
 }
